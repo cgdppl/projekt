@@ -1,0 +1,43 @@
+<!DOCTYPE HTML> 
+<html lang="pl">
+<head>
+	<meta charset= "utf-8" />
+	<title>Odnawialne źródła energii</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<script>
+	function oblicz()
+	{
+		var ilosc = document.getElementById("pole1").value;
+		var cena = null;
+		
+		cena = ilosc*1755;
+		
+		document.getElementById("wynik").innerHTML ="Koszt wynosi " + cena + " zł.";
+	}
+	</script>
+</head>
+<body>
+	<section class="baner">
+	<a href="index.html"><h1>Odnawialne źródła energii</h1></a>
+	</section>
+	<section class="l-panel">
+	<h2>O czym chcesz się dowiedzieć?</h2><br>
+	<a href="fotowoltaika.html">Fotowoltaika</a><br>
+	<a href="panele.html">Obliczanie kosztów paneli</a><br>
+	<a href="farmywiatrowe.html">Farmy wiatrowe</a><br>
+	<a href="energetykawodna.html">Energetyka wodna</a><br>
+	</section>
+	<section class="p-panel">
+	<h1>Obliczanie kosztu paneli</h1>
+	<p>Oto prosty kalkulator do oblicznia ceny paneli fotowotaicznych 3 kWp. Wpisz liczbę paneli, aby poznać ich koszt.</p>
+	Ilość paneli 3kWp:<input type="number" id="pole1"/><br>
+	<input type="submit" value="Oblicz" onclick="oblicz()"/>
+	<div id="wynik"></div>
+	</section>
+	<section class="stopka">
+	Wykonali:<br>
+	Dominik Potoczniak i Eryk Gnitecki
+	</section>
+</body>
+</html>

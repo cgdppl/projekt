@@ -1,0 +1,64 @@
+body
+{
+	margin: 0px;
+}
+section
+{
+	display: inline-block;
+}
+.baner
+{
+	background-color: #2E8B57;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	font-family: Trebuchet MS;
+}
+.l-panel
+{
+	background-color: #C0C0C0;
+	height: 500px;
+	width: 20%;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 20px;
+	font-family: Trebuchet MS;
+	float: left;
+	line-height: 210%;
+}
+.p-panel
+{
+	background-color: #FFF5EE;
+	height: 500px;
+	width: 80%;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 20px;
+	font-family: Trebuchet MS;
+	float: right;
+	line-height: 180%;
+}
+.stopka
+{
+	background-color: #87CEEB;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	font-family: Trebuchet MS;
+}
+p
+{
+	font-size: 17px;
+	font-family: Trebuchet MS;
+}
+a:link,visited,hover,active
+{
+	text-decoration: none;
+}
+img
+{
+	height: 300px;
+	width: 500px;
+}
